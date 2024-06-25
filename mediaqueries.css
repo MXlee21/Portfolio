@@ -1,0 +1,94 @@
+@media screen and (max-width: 1200px) {
+
+
+    #desktopNav {
+        display: none;
+    }
+
+    #hamburgerNav {
+        display: flex;
+    }
+
+    #profile {
+        display: block;
+        width: 30rem;
+        height: 55rem;
+        margin: 0;
+    }
+
+    .section_pic {
+        margin-left: 2.2rem;
+    }
+
+    #education {
+        width: 30rem;
+        margin: 0;
+        height: 45rem;
+    }
+
+    #school {
+        display: none;
+    }
+
+    #utar {
+        font-size: 1.2rem;
+    }
+
+    .university {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25rem;
+    }
+
+    .university2 {
+        width: 25rem;
+    }
+
+    .award {
+        width: 25rem;
+    }
+
+
+
+    #experience {
+        width: 10rem;
+        height: 55rem;
+
+
+    }
+
+    #language-section,
+    #framework-section {
+        width: 27rem;
+    }
+
+    #language-section-3 {
+        padding: 0;
+    }
+
+    #projects {
+        width: 10rem;
+        height: 70rem;
+    }
+
+    #project-section {
+        display: block;
+
+    }
+
+    #contact {
+        width: 29rem;
+        margin: 0;
+        height: 50rem;
+    }
+
+    #contact-info {
+        display: block;
+        width: 20rem;
+        height: 5rem;
+        padding: 1rem;
+    }
+
+
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lee Ming Xuan Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktopNav">
+      <div class="logo">Lee Ming Xuan</div>
+      <div>
+        <ul class="navLinks">
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburgerNav">
+      <div class="logo">Lee Ming Xuan</div>
+      <div class="hamburgerMenu">
+        <div class="hamburgerIcon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+          
+        </div>
+
+        <div class="menuLinks">
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+
+      <div class="section_pic">
+        <img src="./assets/profile_pic.png" alt="Lee Ming Xuan">
+      </div>
+
+      <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Lee Ming Xuan</h1>
+        <p class="section_text_p2">Software Engineering Student</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/LMX_resume.pdf')">Download CV</button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="LinkIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/lee-ming-xuan-7440a4290/'">
+          <img src="./assets/github.png" alt="github Profile" class="icon" onclick="location.href='https://github.com/MXlee21'">
+        </div>
+      </div>
+
+    </section>
+
+    <section id="education">
+      <p class="caption">Get To Know My</p>
+      <h1 class="title">Education</h1>
+
+      <div class="university">
+        <img id="school" src="./assets/school.png" alt="school">
+        <p id="utar">Universiti Tunku Abdul Rahman</p>
+      </div>
+      <div class="university2">
+        <p id="cgpa">CGPA :</p>
+        <p id="cgpa-actual">3.55</p>
+      </div>
+      <div class="award">
+        <div id="award-section">
+
+          <div id="award-title-section">
+            <img id="expImg" src="./assets/experience.png" alt="exp">
+            <p id="award-title">Academic Achivements</p>
+          </div>
+          
+          <div id="award-list-section">
+            <p>- Dean's List JUNE 2022</p>
+            <p>- Dean's List JANUARY 2023</p>
+            <p>- Dean's List MAY 2023</p>
+            <p>- President's List OCTOBER 2023</p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="experience">
+      <p class="caption">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div id="language-section">
+        <p id="language-title">Programming Languages</p>
+        <div id="language-section-2">
+          <div id="language-section-3">
+            <div id="language">
+              <img id="checkmark" src="./assets/checkmark.png" alt="check">
+              <div>
+                <p id="name">HTML</p>
+                <p id="level">Basic</p>
+              </div>
+            </div>
+
+            <div id="language">
+              <img id="checkmark" src="./assets/checkmark.png" alt="check">
+              <div>
+                <p id="name">CSS</p>
+                <p id="level">Basic</p>
+              </div>
+            </div>
+
+            <div id="language">
+              <img id="checkmark" src="./assets/checkmark.png" alt="check">
+              <div>
+                <p id="name">JavaScript</p>
+                <p id="level">Basic</p>
+              </div>
+            </div>
+
+            <div id="language">
+              <img id="checkmark" src="./assets/checkmark.png" alt="check">
+              <div>
+                <p id="name">PHP</p>
+                <p id="level">Basic</p>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div id="language-section-3">
+            <div id="language">
+              <img id="checkmark" src="./assets/checkmark.png" alt="check">
+              <div>
+                <p id="name">SQL</p>
+                <p id="level">Basic</p>
+              </div>
+            </div>
+
+            <div id="language">
+              <img id="checkmark" src="./assets/checkmark.png" alt="check">
+              <div>
+                <p id="name">Java</p>
+                <p id="level">Basic</p>
+              </div>
+            </div>
+
+            <div id="language">
+              <img id="checkmark" src="./assets/checkmark.png" alt="check">
+              <div>
+                <p id="name">C++</p>
+                <p id="level">Basic</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="framework-section">
+        <p id="language-title">Framework</p>
+        <div id="language">
+          <img id="checkmark" src="./assets/checkmark.png" alt="check">
+          <div>
+            <p id="name">ReactNative</p>
+            <p id="level">Basic</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="caption">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+
+      <div id="project-section">
+
+        <div class="project">
+          <img class="project-img" src="./assets/project1.png" alt="project1">
+          <p class="project-title">Book Shopping App</p>
+          <p class="project-caption">ReactNative, JavaScript, SQL</p>
+          <button class="btn btn-color-2" onclick="location.href='https://github.com/MXlee21/Book-Shopping-App'">GitHub</button>
+        </div>
+
+        <div class="project">
+          <img class="project-img" src="./assets/project2.png" alt="project1">
+          <p class="project-title">Soap Shopping Website</p>
+          <p class="project-caption">HTML, CSS, PHP, JavaScript, SQL</p>
+          <button class="btn btn-color-2" onclick="location.href='https://github.com/MXlee21/Soap-Shopping-Website'">GitHub</button>
+        </div>
+
+      </div>
+    </section>
+
+    
+
+    <section id="contact">
+      <p class="caption">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div id="contact-info">
+        <div class="contact-method">
+          <img id="contact-pic" src="./assets/email.png" alt="email">
+          <p class="contact-detail">lmxlee41@gmail.com</p>
+        </div>
+        <div class="contact-method">
+          <img id="contact-pic2" src="./assets/phone-call.png" alt="email">
+          <p class="contact-detail">019-2121863</p>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
